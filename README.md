@@ -1,13 +1,13 @@
 # DATABASEBAITAP <h3>
 # CREATE DATABASE school <h5>
-
+<sql>
 CREATE TABLE teacher( </br>
     id INT PRIMARY KEY, </br>
     name TEXT NOT NULL, </br>
     email TEXT NOT NULL, </br>
     mobile VARCHAR NOT NULL, </br>
     address TEXT NOT NULL </br>
-)</br>
+)</sql> </br>
 
 INSERT INTO teacher(id, name, email, mobile, address) VALUES (11,'A1','A1@gmail.com','01233367899','HN');</br>
 INSERT INTO teacher(id, name, email, mobile, address) VALUES (22,'B1','A1@gmail.com','01244467899','HN');</br>

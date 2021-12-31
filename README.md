@@ -1,5 +1,5 @@
-# DATABASEBAITAP <h2>
-# CREATE DATABASE school <h3>
+# DATABASEBAITAP <h3>
+# CREATE DATABASE school <h5>
 
 CREATE TABLE teacher( </br>
     id INT PRIMARY KEY, </br>

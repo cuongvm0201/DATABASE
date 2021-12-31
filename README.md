@@ -5,7 +5,7 @@ CREATE TABLE teacher( </br>
     id INT PRIMARY KEY, </br>
     name TEXT NOT NULL, </br>
     email TEXT NOT NULL, </br>
-    mobile VARCHAR NOT NULL, </br>
+    mobile VARCHAR(11) NOT NULL, </br>
     address TEXT NOT NULL </br>
 )</br>
 
@@ -32,16 +32,16 @@ CREATE TABLE student(</br>
    name TEXT NOT NULL,</br>
    birthday DATE NOT NULL,</br>
    address TEXT NOT NULL,</br>
-   mobile VARCHAR NOT NULL,</br>
+   mobile VARCHAR(11) NOT NULL,</br>
    email TEXT NOT NULL,</br>
    id_class INT NOT NULL,</br>
    FOREIGN KEY (id_class) REFERENCES class(id)</br>
 )</br>
-INSERT INTO student(id, name, birthday, address, mobile, email, id_class) VALUES (1111,'A','1991-1-1','HN','A@gmail.com','01234567899',1);</br>
-INSERT INTO student(id, name, birthday, address, mobile, email, id_class) VALUES (2222,'B','1990-2-2','BN','B@gmail.com','01234567899',2);</br>
-INSERT INTO student(id, name, birthday, address, mobile, email, id_class) VALUES (3333,'C','1990-3-3','HCM','C@gmail.com','01234567899',2);</br>
-INSERT INTO student(id, name, birthday, address, mobile, email, id_class) VALUES (4444,'D','1992-4-4','HY','D@gmail.com','01234567899',1);</br>
-INSERT INTO student(id, name, birthday, address, mobile, email, id_class) VALUES (5555,'E','1993-5-5','TN','E@gmail.com','01234567899',3);</br>
+INSERT INTO student(id, name, birthday, address, mobile, email, id_class) VALUES (1111,'A','1991-1-1','HN','A@gmail.com','012324267899',1);</br>
+INSERT INTO student(id, name, birthday, address, mobile, email, id_class) VALUES (2222,'B','1990-2-2','BN','B@gmail.com','03535456899',2);</br>
+INSERT INTO student(id, name, birthday, address, mobile, email, id_class) VALUES (3333,'C','1990-3-3','HCM','C@gmail.com','01535567899',2);</br>
+INSERT INTO student(id, name, birthday, address, mobile, email, id_class) VALUES (4444,'D','1992-4-4','HY','D@gmail.com','01222267899',1);</br>
+INSERT INTO student(id, name, birthday, address, mobile, email, id_class) VALUES (5555,'E','1993-5-5','TN','E@gmail.com','01333367899',3);</br>
 -----------------------------</br>
 
 CREATE TABLE subject(</br>

@@ -19,7 +19,7 @@ INSERT INTO teacher(id, name, email, mobile, address) VALUES (11,'Tùng','tung@g
 INSERT INTO teacher(id, name, email, mobile, address) VALUES (22,'Hoàng','hoang@gmail.com','01244467899','BG');
 INSERT INTO teacher(id, name, email, mobile, address) VALUES (33,'Minh','minh@gmail.com','01255567899','HY');
 ```
-
+-------------------------------------------------------------------------------------------------------------------
 **_Tạo bảng class_**
 ```sql
 CREATE TABLE class (
@@ -36,7 +36,7 @@ INSERT INTO class(id, name, id_teacher) VALUES (1,'Lớp A',11);
 INSERT INTO class(id, name, id_teacher) VALUES (2,'Lớp B',22);
 INSERT INTO class(id, name, id_teacher) VALUES (3,'Lớp C',33);
 ```
-
+-------------------------------------------------------------------------------------------------------------------
 **_Tạo bảng student_**
 ```sql
 CREATE TABLE student(
@@ -58,7 +58,7 @@ INSERT INTO student(id, name, birthday, address, mobile, email, id_class) VALUES
 INSERT INTO student(id, name, birthday, address, mobile, email, id_class) VALUES (4444,'Trang','1992-4-4','HY','01222267899','D@gmail.com',1);
 INSERT INTO student(id, name, birthday, address, mobile, email, id_class) VALUES (5555,'Toàn','1993-5-5','TN','01333367899','E@gmail.com',3);
 ```
-
+-------------------------------------------------------------------------------------------------------------------
 **_Tạo bảng subject_**
 ```sql
 CREATE TABLE subject(
@@ -72,7 +72,7 @@ INSERT INTO subject(id, name) VALUES (111,'monhoc1');
 INSERT INTO subject(id, name) VALUES (222,'monhoc2');
 INSERT INTO subject(id, name) VALUES (333,'monhoc3');
 ```
-
+-------------------------------------------------------------------------------------------------------------------
 **_Tạo bảng point_**
 ```sql
 CREATE TABLE point(

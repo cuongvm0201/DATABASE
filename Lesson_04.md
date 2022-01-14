@@ -27,8 +27,8 @@ SELECT film.title, film.description , film.release_year , film.length , film.rat
 FROM film
 INNER JOIN film_actor ON film.film_id = film_actor.film_id
 WHERE film_actor.film_id IN (SELECT film.film_id
-							               FROM film 
-							               WHERE film.rating = 'G')
+			     FROM film 
+			     WHERE film.rating = 'G')
 GROUP BY film.film_id		
 ```
 ---

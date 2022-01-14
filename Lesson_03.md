@@ -11,8 +11,7 @@ AND rental_rate < 2.99
 ```sql
 SELECT title, description, length, special_features, rating
 FROM film
-WHERE rating = 'G'
-AND rental_rate > (SELECT AVG(rental_rate) FROM film)
+WHERE rental_rate > (SELECT AVG(rental_rate) FROM film WHERE rating = 'G')
 
 ```
 ---

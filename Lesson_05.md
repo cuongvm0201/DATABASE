@@ -1,4 +1,4 @@
-## **Tạo Database**
+## **Tạo Database Rạp Chiếu Phim**
 ```sql
 CREATE DATABASE Cinema
 ```
